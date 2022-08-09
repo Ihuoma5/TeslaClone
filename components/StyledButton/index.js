@@ -3,8 +3,7 @@ import React from "react";
 import styles from "./styles";
 
 const StyledButton = (props) => {
- 
-  const {type, content, onPress} = props;
+  const { type, content, onPress } = props;
 
   const backgroundColor = type === "primary" ? "#171A20CC" : "#FFFFFFFA";
   const textColor = type === "primary" ? "#FFF" : "#171A20";
